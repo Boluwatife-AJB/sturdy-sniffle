@@ -37,6 +37,10 @@ const About = () => (
         of the metaverse by scrolling down
       </motion.p>
 
+      <p className="text-white text-3xl font-sans relative inline-block after:block after:scale-x-[1] after:content-[''] after:origin-[100%_0%] after:transform after:duration-300 after:ease-in-out after:hover:scale-x-0 after:hover:origin-[0%_100%] after:border-b-2 after:border-white">
+        Hello there!
+      </p>
+
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
         src="/arrow-down.svg"
